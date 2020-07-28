@@ -26,8 +26,7 @@
     self.dataSource = [@[
                            [self makeItemWithTitle:@"NoDataView" subTitle:@"" image:@"" className:@"NoDataViewVC" selector:@""],
                            [self makeItemWithTitle:@"SliderView" subTitle:@"" image:@"" className:@"SliderViewVC" selector:@""],
-
-//                           [self makeItemWithTitle:@"NoDataView" subTitle:@"" image:@"" className:@"NoDataViewVC" selector:@""],
+                           [self makeItemWithTitle:@"FloatButton" subTitle:@"" image:@"" className:@"FloatButtonVC" selector:@""],
 
 
                        ] mutableCopy];

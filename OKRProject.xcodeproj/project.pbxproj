@@ -52,6 +52,9 @@
 		CE302F6B24CF1D4D0026948C /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE302F6424CF1D4D0026948C /* DLSlideView.m */; };
 		CE302F6E24CF1D910026948C /* SliderViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE302F6D24CF1D910026948C /* SliderViewVC.m */; };
 		CE77565624CFCBA800435EAF /* OKR工程.zip in Resources */ = {isa = PBXBuildFile; fileRef = CE77565524CFCBA800435EAF /* OKR工程.zip */; };
+		CE77565B24CFF69F00435EAF /* FloatButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77565924CFF69F00435EAF /* FloatButtonVC.m */; };
+		CE77565C24CFF69F00435EAF /* FloatButtonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77565A24CFF69F00435EAF /* FloatButtonVC.xib */; };
+		CE77566024CFF7C400435EAF /* FloatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77565F24CFF7C400435EAF /* FloatButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +126,11 @@
 		CE302F6C24CF1D910026948C /* SliderViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderViewVC.h; sourceTree = "<group>"; };
 		CE302F6D24CF1D910026948C /* SliderViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderViewVC.m; sourceTree = "<group>"; };
 		CE77565524CFCBA800435EAF /* OKR工程.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "OKR工程.zip"; sourceTree = "<group>"; };
+		CE77565824CFF69F00435EAF /* FloatButtonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatButtonVC.h; sourceTree = "<group>"; };
+		CE77565924CFF69F00435EAF /* FloatButtonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatButtonVC.m; sourceTree = "<group>"; };
+		CE77565A24CFF69F00435EAF /* FloatButtonVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatButtonVC.xib; sourceTree = "<group>"; };
+		CE77565E24CFF7C400435EAF /* FloatButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatButton.h; sourceTree = "<group>"; };
+		CE77565F24CFF7C400435EAF /* FloatButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatButton.m; sourceTree = "<group>"; };
 		CF3C3624CCCD379CE9441AA1 /* libPods-OKRProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OKRProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -176,19 +184,20 @@
 		CE302EF324CF09A20026948C /* OKRProject */ = {
 			isa = PBXGroup;
 			children = (
-				CE77565524CFCBA800435EAF /* OKR工程.zip */,
 				CEA364DA24CFB857004FCD2E /* AppDelegate */,
+				CE302F4824CF14FC0026948C /* Tool */,
 				CE302F5124CF1D360026948C /* SliderView */,
 				CE302F1124CF0F140026948C /* NoDataVIew */,
+				CE77565724CFF66700435EAF /* FloatButtonView */,
+				CE302F0D24CF0B160026948C /* PrefixHeader.pch */,
 				CE302EFA24CF09A20026948C /* ViewController.h */,
 				CE302EFB24CF09A20026948C /* ViewController.m */,
-				CE302F4824CF14FC0026948C /* Tool */,
-				CE302F0D24CF0B160026948C /* PrefixHeader.pch */,
-				CE302EFD24CF09A20026948C /* Main.storyboard */,
-				CE302F0024CF09A40026948C /* Assets.xcassets */,
-				CE302F0224CF09A40026948C /* LaunchScreen.storyboard */,
 				CE302F0524CF09A40026948C /* Info.plist */,
+				CE302F0224CF09A40026948C /* LaunchScreen.storyboard */,
 				CE302F0624CF09A40026948C /* main.m */,
+				CE302EFD24CF09A20026948C /* Main.storyboard */,
+				CE77565524CFCBA800435EAF /* OKR工程.zip */,
+				CE302F0024CF09A40026948C /* Assets.xcassets */,
 			);
 			path = OKRProject;
 			sourceTree = "<group>";
@@ -304,6 +313,26 @@
 			path = DLTabbarView;
 			sourceTree = "<group>";
 		};
+		CE77565724CFF66700435EAF /* FloatButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				CE77565D24CFF73700435EAF /* FloatButton */,
+				CE77565824CFF69F00435EAF /* FloatButtonVC.h */,
+				CE77565924CFF69F00435EAF /* FloatButtonVC.m */,
+				CE77565A24CFF69F00435EAF /* FloatButtonVC.xib */,
+			);
+			path = FloatButtonView;
+			sourceTree = "<group>";
+		};
+		CE77565D24CFF73700435EAF /* FloatButton */ = {
+			isa = PBXGroup;
+			children = (
+				CE77565E24CFF7C400435EAF /* FloatButton.h */,
+				CE77565F24CFF7C400435EAF /* FloatButton.m */,
+			);
+			path = FloatButton;
+			sourceTree = "<group>";
+		};
 		CEA364DA24CFB857004FCD2E /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +414,7 @@
 				CE302F3A24CF14DD0026948C /* 暂无消息.png in Resources */,
 				CE302F0124CF09A40026948C /* Assets.xcassets in Resources */,
 				CE302F3624CF14DD0026948C /* noCard.png in Resources */,
+				CE77565C24CFF69F00435EAF /* FloatButtonVC.xib in Resources */,
 				CE302F4124CF14DD0026948C /* 暂无网络.png in Resources */,
 				CE302F4224CF14DD0026948C /* noCard@2x.png in Resources */,
 				CE302F4524CF14DD0026948C /* 暂无运单.png in Resources */,
@@ -456,10 +486,12 @@
 			files = (
 				CE302F6E24CF1D910026948C /* SliderViewVC.m in Sources */,
 				CE302EFC24CF09A20026948C /* ViewController.m in Sources */,
+				CE77566024CFF7C400435EAF /* FloatButton.m in Sources */,
 				CE302F3224CF14DD0026948C /* NoDataView.m in Sources */,
 				CE302F6724CF1D4D0026948C /* DLScrollTabbarView.m in Sources */,
 				CE302F1924CF14050026948C /* NoDataManager.m in Sources */,
 				CE302F4F24CF15300026948C /* UIView+TKCategory.m in Sources */,
+				CE77565B24CFF69F00435EAF /* FloatButtonVC.m in Sources */,
 				CE302F6A24CF1D4D0026948C /* DLCustomSlideView.m in Sources */,
 				CE302F1024CF0C910026948C /* BaseViewController.m in Sources */,
 				CE302F4E24CF15300026948C /* TKAlertCenter.m in Sources */,
@@ -613,10 +645,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V5JB4945T9;
+				DEVELOPMENT_TEAM = 9WW38662NQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OKRProject/PrefixHeader.pch";
 				INFOPLIST_FILE = OKRProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,10 +666,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V5JB4945T9;
+				DEVELOPMENT_TEAM = 9WW38662NQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OKRProject/PrefixHeader.pch";
 				INFOPLIST_FILE = OKRProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

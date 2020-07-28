@@ -126,4 +126,6 @@
 #endif
 
 
+#import "TKAlertCenter.h"
+
 #endif /* PrefixHeader_pch */
