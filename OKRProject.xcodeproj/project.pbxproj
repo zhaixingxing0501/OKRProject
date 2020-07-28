@@ -51,6 +51,7 @@
 		CE302F6A24CF1D4D0026948C /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE302F6324CF1D4D0026948C /* DLCustomSlideView.m */; };
 		CE302F6B24CF1D4D0026948C /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE302F6424CF1D4D0026948C /* DLSlideView.m */; };
 		CE302F6E24CF1D910026948C /* SliderViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE302F6D24CF1D910026948C /* SliderViewVC.m */; };
+		CE77565624CFCBA800435EAF /* OKR工程.zip in Resources */ = {isa = PBXBuildFile; fileRef = CE77565524CFCBA800435EAF /* OKR工程.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +122,7 @@
 		CE302F6424CF1D4D0026948C /* DLSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideView.m; sourceTree = "<group>"; };
 		CE302F6C24CF1D910026948C /* SliderViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderViewVC.h; sourceTree = "<group>"; };
 		CE302F6D24CF1D910026948C /* SliderViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderViewVC.m; sourceTree = "<group>"; };
+		CE77565524CFCBA800435EAF /* OKR工程.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "OKR工程.zip"; sourceTree = "<group>"; };
 		CF3C3624CCCD379CE9441AA1 /* libPods-OKRProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OKRProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -174,6 +176,7 @@
 		CE302EF324CF09A20026948C /* OKRProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE77565524CFCBA800435EAF /* OKR工程.zip */,
 				CEA364DA24CFB857004FCD2E /* AppDelegate */,
 				CE302F5124CF1D360026948C /* SliderView */,
 				CE302F1124CF0F140026948C /* NoDataVIew */,
@@ -397,6 +400,7 @@
 				CE302F3924CF14DD0026948C /* 数据加载失败@2x.png in Resources */,
 				CE302F3724CF14DD0026948C /* 暂无网络@3x.png in Resources */,
 				CE302F4724CF14DD0026948C /* 开发中@2x.png in Resources */,
+				CE77565624CFCBA800435EAF /* OKR工程.zip in Resources */,
 				CE302F3F24CF14DD0026948C /* 暂无消息@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
